@@ -1,3 +1,3 @@
-# Strapi application
+# Funsigns
 
-A quick description of your strapi application
+Backend of Funsigns build with Strapi
