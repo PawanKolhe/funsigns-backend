@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/faculties",
+      "handler": "faculty.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/faculties/count",
+      "handler": "faculty.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/faculties/:id",
+      "handler": "faculty.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/faculties",
+      "handler": "faculty.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/faculties/:id",
+      "handler": "faculty.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/faculties/:id",
+      "handler": "faculty.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

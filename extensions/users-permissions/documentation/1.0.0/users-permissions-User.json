@@ -1188,7 +1188,8 @@
         "required": [
           "id",
           "username",
-          "email"
+          "email",
+          "type"
         ],
         "properties": {
           "id": {
@@ -1250,13 +1251,27 @@
                 "type": "string"
               }
             }
+          },
+          "fullName": {
+            "type": "string"
+          },
+          "age": {
+            "type": "integer"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "student",
+              "faculty"
+            ]
           }
         }
       },
       "NewUsersPermissionsUser": {
         "required": [
           "username",
-          "email"
+          "email",
+          "type"
         ],
         "properties": {
           "username": {
@@ -1291,6 +1306,19 @@
           },
           "role": {
             "type": "string"
+          },
+          "fullName": {
+            "type": "string"
+          },
+          "age": {
+            "type": "integer"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "student",
+              "faculty"
+            ]
           },
           "created_by": {
             "type": "string"

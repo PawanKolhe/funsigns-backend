@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faculties",
+  "info": {
+    "name": "Faculty"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "userid": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "rating": {
+      "type": "decimal",
+      "default": 0,
+      "max": 5,
+      "min": 0
+    },
+    "courses": {
+      "via": "faculty",
+      "collection": "course"
+    }
+  }
+}
