@@ -535,7 +535,7 @@
           },
           "value": {
             "type": "integer",
-            "default": 1
+            "default": 5
           },
           "course": {
             "required": [
@@ -592,7 +592,7 @@
           },
           "value": {
             "type": "integer",
-            "default": 1
+            "default": 5
           },
           "course": {
             "type": "string"

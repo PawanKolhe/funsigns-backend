@@ -25,11 +25,11 @@
     },
     "value": {
       "type": "integer",
-      "default": 1
+      "default": 5
     },
     "course": {
-      "via": "assignments",
-      "model": "course"
+      "model": "course",
+      "via": "assignments"
     }
   }
 }

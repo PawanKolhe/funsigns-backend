@@ -20,8 +20,8 @@
       "via": "courses"
     },
     "assignments": {
-      "collection": "assignment",
-      "via": "course"
+      "via": "course",
+      "collection": "assignment"
     }
   }
 }
