@@ -29,11 +29,6 @@
     },
     "badges": {
       "collection": "badge"
-    },
-    "points": {
-      "type": "integer",
-      "default": 0,
-      "min": 0
     }
   }
 }

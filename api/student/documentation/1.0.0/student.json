@@ -708,10 +708,6 @@
               }
             }
           },
-          "points": {
-            "type": "integer",
-            "default": 0
-          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -728,10 +724,6 @@
           },
           "badges": {
             "type": "string"
-          },
-          "points": {
-            "type": "integer",
-            "default": 0
           },
           "published_at": {
             "type": "string",
